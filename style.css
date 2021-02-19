@@ -23,28 +23,53 @@ header {
     border-bottom: darkseagreen solid 5px;
     border-top: yellow 20px dotted;
     display: flex;
-    
     /*background: white;
     color: #333;
     width: 100%;
     height: 10vh;
     ;*/
 }
-/*Menu de Navegação Principal*/
+/*-------Menu de Navegação Principal-------*/
+
+/*navbar ul li {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+li a.navbar {
+    text-decoration: none;
+    color: white;
+}
+li a:hover {
+    color: pink;
+}
+
+div#navbar-container {
+    display: inline-block;
+    float: right;
+}
+*/
 
 /* Seção Principal*/
 main {
     background-color: darkseagreen;
     width: 70%;
-    height: 800px;
     float: right;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#foto-livro-suassuna {
+    width: 300px;
+    border: white solid 10px;
+    border-bottom-width: 20px;
+
 }
 /*Parte lateral da página*/
 aside {
     background-color: blanchedalmond;
     color: #333;
-    height: 800px;
-    width: 30%;
+    width: 28%;
     float: left;
 }
 /*Rodapé da página*/
@@ -55,4 +80,9 @@ footer {
     height: 60%;
 }
 
-
+div.title {
+    display: flex;
+}
+div#artigo1, div.bullet-points {
+    display: flex;
+}
