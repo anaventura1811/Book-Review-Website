@@ -1,0 +1,58 @@
+body {
+    background: #333;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+section {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+/*Seção do Cabeçalho*/
+
+header {
+    color: white;
+    /*background: white;*/
+    width: 100px;
+    margin: 50px 100px 40px;
+    padding: 20px;
+    text-align: center;
+    border-bottom: darkseagreen solid 5px;
+    border-top: yellow 20px dotted;
+    display: flex;
+    
+    /*background: white;
+    color: #333;
+    width: 100%;
+    height: 10vh;
+    ;*/
+}
+/*Menu de Navegação Principal*/
+
+/* Seção Principal*/
+main {
+    background-color: darkseagreen;
+    width: 70%;
+    height: 800px;
+    float: right;
+}
+/*Parte lateral da página*/
+aside {
+    background-color: blanchedalmond;
+    color: #333;
+    height: 800px;
+    width: 30%;
+    float: left;
+}
+/*Rodapé da página*/
+footer {
+    background-color:lavender;
+    color: black;
+    clear: both;
+    height: 60%;
+}
+
+
